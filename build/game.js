@@ -272,7 +272,7 @@ function update() {
     let exploding = ship.explodeTime > 0;
 
     // set background
-    ctx.fillStyle = ctx.createPattern(background, 'repeat');
+    ctx.fillStyle = 'black'; //ctx.createPattern(background, 'repeat');
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     // increased speed of the ship
